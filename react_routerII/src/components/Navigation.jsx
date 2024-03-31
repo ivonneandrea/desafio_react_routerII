@@ -27,7 +27,7 @@ const Navigation = () => {
                     Home
                 </NavLink>
                 <NavLink className={activeClass} to="/pokemons">
-                    Pokemons
+                    Pokemones
                 </NavLink>
             </section>
         </Navbar>

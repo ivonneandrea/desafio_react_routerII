@@ -1,4 +1,4 @@
-import pikachuNotFound from "../assets/img/facetriste.jpeg";
+import faceNotFound from "../assets/img/facetriste.jpeg";
 
 const NotFound = () => {
     return (
@@ -6,8 +6,8 @@ const NotFound = () => {
             <h3>La página que buscas no existe</h3>
             <img
                 className="notFoundImg"
-                src={pikachuNotFound}
-                alt="Sad Pikachu gif"
+                src={faceNotFound}
+                alt="Sad face"
             />
         </section>
     );
